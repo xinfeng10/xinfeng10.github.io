@@ -242,13 +242,26 @@ img{
 	font-weight: 600;
 }
 
-.top10 .item .mod_desc .mod_comment{ 
+.top10 .item .mod_desc .mod_join p {
+	position:absolute;
+	bottom:.5em;
+	left:50%;
+	line-height:1.5em; 
+	text-align:center;
+	margin-left:-45px;
+}
+
+.top10 .item .mod_desc .mod_join p a {
+	color: #E2B983;
+}
+
+.top10 .item .mod_desc .mod_join span { 
 	color:#CDCDCD; 
 	border:solid 1px #8e8e8e; 
 	display:inline-block; 
 	line-height:1.5em; 
 	position:absolute; 
-	bottom:1em; 
+	bottom:3em; 
 	left:50%; 
 	width:90px; 
 	margin-left:-45px; 
@@ -277,9 +290,13 @@ img{
 	color:#2d2b2c;
 }
 
-.top10 .item:hover .mod_desc .mod_comment{
-	color:#36362c; 
+.top10 .item:hover .mod_desc .mod_join span {
+	color:#2d2b2c; 
 	border-color:#83675b;
+}
+
+.top10 .item:hover .mod_desc .mod_join p a {
+	color:#A91324;
 }
 
 .top10 .text{ 
